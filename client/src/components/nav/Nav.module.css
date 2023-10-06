@@ -1,35 +1,51 @@
 .bar {
     background: #9D70EB;
     width: 100%;
-    height: 108px;
+    height: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0px
   }
   
   .bar .logo {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    font-size: 32px;
-    font-weight: 700;
-    font-family: Inter;
+    height: 50px;
+
+
   }
   .bar div img {
-    padding-right: 10px;
+    width: 130px;
   }
   
-  .bar input {
+  .ae {
+    display: flex;
+    justify-content: flex-end;
     background: #E0E18A;
     color: #fff;
-    width: 400px;
+    width: 200px;
     height: 40px;
     border: none;
-    padding: 0 20px;
+    border-radius: 20px 0 0 20px ;
+    
+
+    
+
   }
   
   .bar input::placeholder {
     color: #c7c7c7;
   }
+
+  .bar input{
+    background: #E0E18A;
+    color: #fff;
+    width: 400px;
+    height: 40px;
+    border: none;
+
+    border-radius: 20px 
+    
+
+  }
+
+
   

@@ -7,9 +7,14 @@ const Nav = () => {
         <div className={styles.logo}>
             <img src={logo} alt="logo Petshop" width={""} />
 
-
         </div>
         <input type="text" placeholder="Buscar" />
+
+
+          <div className={styles.ae}>
+        <input type="text" placeholder="Buscar" />
+        </div>
+        
     </div>
   )
 }
