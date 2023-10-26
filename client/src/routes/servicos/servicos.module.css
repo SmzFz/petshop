@@ -1,0 +1,41 @@
+
+.servicos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.servicinhos{
+    font-size: 2em;
+    color:#E0E18A;
+    display: flex;
+    justify-content: center;
+  
+  }
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15em;
+}
+
+.info div{
+    width: 230px;
+}
+
+.info p{
+    padding-top: 6em;
+    padding-bottom: 7em;
+}
+
+
+.info h2{
+    padding-top: 3em;
+}
+
+.info button{
+
+
+}
+

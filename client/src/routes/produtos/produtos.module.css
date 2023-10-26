@@ -1,5 +1,19 @@
 .produtos h1{
   font-size: 4em;
   color:#E0E18A;
-  
+  padding: 0 0.45em;
+
 }
+
+.produtos p{
+  padding: 0 2em;
+
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 2em;
+}
+

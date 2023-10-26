@@ -6,7 +6,6 @@ const navigation = [
   {componente: "/produtos", name:"Produtos"},
   {componente: "/servicos", name:"Serviços"},
   {componente: "/localizacao", name:"Localização"},
-  {componente: "/contato", name:"Contato"},
 ]
 
 const Nav = () => {

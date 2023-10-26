@@ -1,14 +1,18 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 import App from "./pages/App";
-import './index.css'
+import "./index.css";
 import { RecoilRoot } from "recoil";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import Produtos from './routes/produtos/produtos';
-import Servicos from './routes/servicos/servicos';
-import Localizacao from './routes/localizacao/localizacao';
-import Contato from './routes/contato/contato';
-import Home from './routes/home/home';
+import Produtos from "./routes/produtos/produtos";
+import Servicos from "./routes/servicos/servicos";
+import Localizacao from "./routes/localizacao/localizacao";
+
+import Home from "./routes/home/home";
+import Infoc from "./routes/infoc/infoc";
+import Infor from "./routes/infor/infor";
+import Infop from "./routes/infop/infop";
+import Infog from "./routes/infog/infog";
 
 const router = createBrowserRouter([
   {
@@ -20,15 +24,17 @@ const router = createBrowserRouter([
       { path: "produtos", element: <Produtos /> },
       { path: "servicos", element: <Servicos /> },
       { path: "localizacao", element: <Localizacao /> },
-      { path: "contato", element: <Contato/> },
 
+      { path: "cachorro", element: <Infoc /> },
+      { path: "gato", element: <Infor /> },
+      { path: "passa", element: <Infop /> },
+      { path: "rato", element: <Infog /> },
     ],
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
-
+  </React.StrictMode>
+);
