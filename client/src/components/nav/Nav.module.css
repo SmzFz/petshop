@@ -2,7 +2,9 @@ body{
   display: flex;
   flex-direction: column;
   
+  
 }
+
 
 
 
@@ -10,7 +12,7 @@ body{
 .container{
   display: flex;
   flex-direction: row;
-  margin: 0.5em;
+  /* margin: 0.5em; */
   background: #9D70EB;
 }
 

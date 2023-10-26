@@ -18,14 +18,10 @@ const Nav = () => {
           <input type="text" placeholder="Pesquise na Little Pet" />
         </div>
         <div className={styles.navBar}>
-          <h3>Página Inicial</h3>
           {navigation.map((item)=>(
    <Link key={item.name} to={item.componente}>{item.name}</Link> 
    ))}
 
-          <h3>Sobre nós</h3>
-          <h3>Entre</h3>
-          <h3>Cadastre-se</h3>
         </div>
       </div>
     </div>
