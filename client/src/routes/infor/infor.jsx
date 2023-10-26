@@ -1,8 +1,8 @@
-import React from 'react'
-import rato from "."
+import styles from "./infor.module.css"
+
 const Infor = () => {
   return (
-    <img className={styles.img} src={imgs} alt="logo" />
+    <img className={styles.img} src={rato} alt="logo" />
   )
 }
 

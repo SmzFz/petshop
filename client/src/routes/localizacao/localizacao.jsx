@@ -10,10 +10,10 @@ const Contact = () => {
     const resultado = await fetch("Comprado!");
     
     Swal.fire({
-      background: 'black',
-      color: 'white',
-      title:"Problema relado!",
-      text:"Enviado, porfavor aguarde nossa equipe😰",
+      background: '#9D70EB',
+      color: '#E0E18A',
+      title:"Problema relatado!",
+      text:"Enviado, por favor aguarde nossa equipe😰",
       confirmButtonColor: 'red',
       icon: 'info',
       iconColor: 'red',
