@@ -5,8 +5,8 @@ import './index.css'
 import { RecoilRoot } from "recoil";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Produtos from './routes/produtos/produtos';
-import Serviços from './routes/serviços/serviços';
-import Localização from './routes/localização/localização';
+import Servicos from './routes/servicos/servicos';
+import Localizacao from './routes/localizacao/localizacao';
 import Contato from './routes/contato/contato';
 import Home from './routes/home/home';
 
@@ -18,8 +18,8 @@ const router = createBrowserRouter([
     children: [
       { path: "/", element: <Home /> },
       { path: "produtos", element: <Produtos /> },
-      { path: "serviços", element: <Serviços /> },
-      { path: "localização", element: <Localização /> },
+      { path: "servicos", element: <Servicos /> },
+      { path: "localizacao", element: <Localizacao /> },
       { path: "contato", element: <Contato/> },
 
     ],

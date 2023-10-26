@@ -52,7 +52,8 @@ body{
   
 }
 
-.navBar h3{
+.navBar {
+
   font-size: 1.1em;
   font-weight: 300;
   color: #E0E18A;
@@ -60,4 +61,35 @@ body{
   height: 2.84em;
   display: flex;
   align-items: flex-end;
+}
+
+.navBars{
+  display: flex;
+  flex-direction: row;
+  width: 63.8375em;
+  justify-content: space-between;
+  text-decoration: none;
+  
+}
+
+.navBars {
+
+  font-size: 1.1em;
+  font-weight: 300;
+  color: #E0E18A;
+  margin: 0em;
+  height: 2.84em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.navBars:hover{
+  color:#60611d;
+  animation: 0.5s;
+  transition: 0.5s;
+}
+.navBars:active{
+  color:#60611d;
+  animation: 0.5s;
+  transition: 0.5s;
 }
