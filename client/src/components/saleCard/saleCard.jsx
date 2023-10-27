@@ -1,6 +1,8 @@
 import Btns from "../btns/btns";
 import Button from "../forms/button/button";
 import styles from "./saleCard.module.css";
+
+//imports e configurando sale card com variaveis sobre informações do botão e tamanho de imagem
 const SaleCard = ({ title, css, info, card }) => {
   return (
     <div className={styles.saleCard}>
@@ -12,6 +14,8 @@ const SaleCard = ({ title, css, info, card }) => {
       />
       <div className={styles.gato}>
         <Btns link={title} info={info} card={card}/>
+
+    
       </div>
     </div>
   );

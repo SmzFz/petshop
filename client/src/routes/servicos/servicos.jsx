@@ -6,6 +6,8 @@ import banho from "../../assets/products/banho-e-tosa.png"
 import pcr from "../../assets/products/parceirinha.png"
 import vacina from "../../assets/products/vacina-cachorro.png"
 
+//importações
+
 const Serviços = () => {
   return (
     <div className={styles.servicos}>
@@ -39,8 +41,12 @@ const Serviços = () => {
             A LittlePet trabalha em parceria com a renomada clínica VillagioVet.
             Procura acompanhamento médico de primeira?
           </p>
+
+
+
           <Button>Agende sua visita!</Button>
         </div>
+      
       </div>
     </div>
   );

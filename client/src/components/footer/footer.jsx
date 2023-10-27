@@ -22,4 +22,6 @@ const Footer = ({children, link}) => {
    );
 };
 
+//sociallinks do footer com links de redes sociais e detalhes
+
 export default Footer;

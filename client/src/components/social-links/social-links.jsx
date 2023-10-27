@@ -11,3 +11,5 @@ const SocialLinks = ({icon, href }) => {
 }
 
 export default SocialLinks;
+
+//configurações do social link, tamanho e fonte com emojis

@@ -5,3 +5,5 @@ const Error = () => {
   }
   
   export default Error
+
+  //caso de erro em alguma rota ira aparecer isso

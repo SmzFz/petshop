@@ -3,6 +3,8 @@ import SaleCard from "../../components/saleCard/saleCard"
 import card from "../../assets/cart-outline.svg";
 import styles from "./infoc.module.css"
 
+//importando e modificando informações do cachorro, com cards de compra sem configuração de compra
+
 const Infoc = () => {
   return (
     <div className={styles.salecard}>

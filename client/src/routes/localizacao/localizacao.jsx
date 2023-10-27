@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
   
+
+  //esta parte informa o swal fire, aquele pop-up que aparece quando voce envia o formulário
   const handleClick = async () => {
 
     const resultado = await fetch("Comprado!");
@@ -21,6 +23,8 @@ const Contact = () => {
     })
   };
 
+
+  //configurações do formulario
 
   return (
     <div className={style.container}>

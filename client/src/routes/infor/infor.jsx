@@ -2,6 +2,8 @@ import SaleCard from "../../components/saleCard/saleCard"
 import styles from "./infor.module.css"
 import card from "../../assets/cart-outline.svg";
 
+//importando e modificando informações do rato, com cards de compra sem configuração de compra
+
 
 const Infor = () => {
   return (

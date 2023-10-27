@@ -9,6 +9,8 @@ const navigation = [
   {componente: "/localizacao", name:"Localização"},
 ]
 
+//importando rotas do nav
+
 const Nav = () => {
   return (
     <div className={styles.container}>
@@ -19,10 +21,10 @@ const Nav = () => {
           <input type="text" placeholder="Pesquise na Little Pet" />
         </div>
         <div className={styles.navBar}>
+  
           {navigation.map((item)=>(
    <Link className={styles.navBars}key={item.name} to={item.componente}>{item.name}</Link> 
    ))}
-   
 
         </div>
       </div>

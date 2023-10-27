@@ -10,7 +10,7 @@ const Box = ({img, p}) => {
     </div>
   )
 }
-
+//montando a caixa de informações sobre envio
 
 export default Box
 

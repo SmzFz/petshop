@@ -10,3 +10,5 @@ const Home = () => {
 };
 
 export default Home;
+
+//pagina principal com imagem de fundo

@@ -7,6 +7,7 @@ import store from "../../assets/storefront-outline.svg"
 import card from "../../assets/card-outline.svg"
 import Box from "../../components/box/box";
 
+//importando produtos e sale card
 
 const Produtos = () => {
   return (
@@ -73,6 +74,7 @@ const Produtos = () => {
           }
         />
       </div>
+
       <div className={styles.box}>
 
       <Box img={arrow} p={"Entrega para Jaú inteiro"} />
@@ -84,6 +86,7 @@ const Produtos = () => {
 
     </div>
   );
+  //importando box com emojis e texto escrito
 };
 
 export default Produtos;

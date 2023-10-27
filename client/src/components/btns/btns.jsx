@@ -12,4 +12,6 @@ const Btns = ({ link, info, card, ...props }) => {
   );
 };
 
+//configurações do botao
+
 export default Btns;

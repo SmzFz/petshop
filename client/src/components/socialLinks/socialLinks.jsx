@@ -10,3 +10,5 @@ const SocialLinks = ({ icon, href }) => {
 };
 
 export default SocialLinks;
+
+//configurações de outros emojis
