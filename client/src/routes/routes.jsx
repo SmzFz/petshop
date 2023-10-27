@@ -13,4 +13,4 @@ const Routes = () => {
   )
 }
 //mostra que o componente home é o principal
-export default Routes
+export default Routes;
