@@ -2,9 +2,10 @@ import SaleCard from "../../components/saleCard/saleCard"
 import styles from "./infor.module.css"
 import card from "../../assets/cart-outline.svg";
 
+
 const Infor = () => {
   return (
-    <div className={styles.sale}>
+    <div className={styles.salecard}>
             <SaleCard
           title={"rato"}
           fullPrice={199.9}
@@ -18,6 +19,48 @@ const Infor = () => {
             })
           }
         />
+                    <SaleCard
+          title={"rato"}
+          fullPrice={199.9}
+          discount={40}
+          info={"🛒"}
+          onAdd={() =>
+            handleAddProduct({
+              name: "Cachorro",
+              price: 199.99 - 199.99 * 0.4,
+              img: "Cachorro",
+            })
+          }
+        />
+    
+    <SaleCard
+          title={"rato"}
+          fullPrice={199.9}
+          discount={40}
+          info={"🛒"}
+          onAdd={() =>
+            handleAddProduct({
+              name: "Cachorro",
+              price: 199.99 - 199.99 * 0.4,
+              img: "Cachorro",
+            })
+          }
+        />
+    
+    <SaleCard
+          title={"rato"}
+          fullPrice={199.9}
+          discount={40}
+          info={"🛒"}
+          onAdd={() =>
+            handleAddProduct({
+              name: "Cachorro",
+              price: 199.99 - 199.99 * 0.4,
+              img: "Cachorro",
+            })
+          }
+        />
+    
     
     </div>
   )

@@ -1,11 +1,13 @@
 import "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
 import "./footer.module.css"
 import SocialLinks from "../social-links/social-links";
+import logo from "../../assets/logo.svg";
 
 const Footer = ({children, link}) => {
    return(
     <footer>
         <p>
+          <a href="" src={logo}></a>
             Feito com <ion-icon name="heart" /> por {" "}
             <a href={link} target="_blank" rel="noopener noreferrer">{children}</a>
         
