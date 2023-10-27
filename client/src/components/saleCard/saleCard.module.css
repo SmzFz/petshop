@@ -9,6 +9,12 @@
     height: 250px;
 }
 
+
+.saleCard img:hover {
+  scale: 1.05;
+}
+
+
 .info {
   padding: 20px;
   margin: 0;

@@ -14,6 +14,9 @@ const Produtos = () => {
       <h1>Produtos</h1>
       <p>
         Atendemos todos os tipos de pets com as melhores marcas do mercado!
+      </p>
+      <p>
+
         Confira nossos produtos:
       </p>
       <div className={styles.container}>

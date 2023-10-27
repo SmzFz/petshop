@@ -13,9 +13,11 @@
   text-align: center;
   text-decoration: none;
   
+  
 }
 .button:hover {
   background: #68489f;
+  transition: 0.5s;
 }
 
 .fullwidth {

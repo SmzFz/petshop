@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./home.module.css";
-import imgs from "../../assets/products/petzin.png";
+import imgs from "../../assets/products/dogsImage.png";
 
 const Home = () => {
   return (
