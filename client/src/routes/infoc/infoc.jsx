@@ -2,7 +2,7 @@ import React from 'react'
 
 const Infoc = () => {
   return (
-    <div>In</div>
+    <div><h1>PRODUTOS G</h1></div>
   )
 }
 

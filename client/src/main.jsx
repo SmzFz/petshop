@@ -26,9 +26,9 @@ const router = createBrowserRouter([
       { path: "localizacao", element: <Localizacao /> },
 
       { path: "cachorro", element: <Infoc /> },
-      { path: "gato", element: <Infor /> },
+      { path: "gato", element: <Infog /> },
       { path: "passa", element: <Infop /> },
-      { path: "rato", element: <Infog /> },
+      { path: "rato", element: <Infor /> },
     ],
   },
 ]);

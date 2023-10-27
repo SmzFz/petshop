@@ -10,9 +10,10 @@
     border-radius: 0.5em;
   
     padding: 0em 1.5em;
-    margin-bottom: 1em;
+    margin-bottom: 3em;
     border-radius: 0 4em 4em 0;
     background-color: #7C57BC;
+    box-shadow: #7C57BC;
   }
 
   .container h3{
@@ -22,30 +23,38 @@
   }
   
   .container input {
-    margin-top: -2em;
+    margin-top: -1em;
+    border: none;
+    outline: none;
+    border-radius: 0.4em;
   }
   
   .container img {
     border-radius: 0em;
   
-    width: 31em;
-    height: 27em;
+    width: 31.1em;
+    height: 27.2em;
     object-fit: cover;
   
     margin-left: 20.5em;
-    margin-top: -23.8em;
+    margin-top: -24.9em;
   
     opacity: 0.8;
   }
   .email{
     margin-top: 1em;
+    
   }
 
   .email input{
     width: 200px;
+    margin-top: 1em;
   }
 
   .name{
+    margin-top: 1em;
+  }
+  .name input{
     margin-top: 1em;
   }
 
@@ -76,7 +85,7 @@
   }
   
   .btn button:hover {
-    background-color: rgb(138, 74, 40);
+    background-color: rgb(193, 170, 43);
     animation: 0.5s;
     transition: 0.5s;
   }

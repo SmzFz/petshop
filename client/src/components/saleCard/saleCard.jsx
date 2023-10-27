@@ -1,7 +1,7 @@
 import Btns from "../btns/btns";
 import Button from "../forms/button/button";
 import styles from "./saleCard.module.css";
-const SaleCard = ({title}) => {
+const SaleCard = ({ title, css, info, card }) => {
   return (
     <div className={styles.saleCard}>
       <img
@@ -10,9 +10,8 @@ const SaleCard = ({title}) => {
         width={250}
         height={300}
       />
-      <div className={styles.info}>
-        <Btns link={title}>mais info</Btns>
-  
+      <div className={styles.gato}>
+        <Btns link={title} info={info} card={card}/>
       </div>
     </div>
   );

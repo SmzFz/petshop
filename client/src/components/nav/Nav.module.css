@@ -38,6 +38,12 @@ body{
   outline: none;
 }
 
+.search img{
+  width: 20px;
+  color: #E0E18A;
+
+}
+
 .search input::placeholder{
   font-size: 1.1em;
   font-weight: 300;

@@ -31,7 +31,7 @@ const Contact = () => {
         </div>
         <div className={style.email}>
           <h4>E-MAIL</h4>
-          <input placeholder="Isira seu e-mail" type="Insira seu e-mail" />
+          <input placeholder="Insira seu e-mail" type="insira seu e-mail" />
         </div>
         <div className={style.problema}>
           <h4>INFORME SEU PROBLEMA</h4>

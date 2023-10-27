@@ -15,5 +15,12 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 0 2em;
+  margin-bottom: 2em;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
 }
 

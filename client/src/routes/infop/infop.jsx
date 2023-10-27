@@ -2,7 +2,7 @@ import React from 'react'
 
 const Infop = () => {
   return (
-    <div>Infop</div>
+    <div><h1>PRODUTOS PASSARO</h1></div>
   )
 }
 
