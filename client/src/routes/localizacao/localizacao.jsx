@@ -2,6 +2,7 @@ import style from "./localizacao.module.css";
 
 import popcorn from "../../assets/mapa.svg";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   
@@ -42,7 +43,7 @@ const Contact = () => {
         </div>
       </div>
       <div>
-        <img src={popcorn} alt="" />
+    <Link to="https://www.google.com.br/maps/preview">  <img src={popcorn} alt="" /></Link>
       </div>
     </div>
   );

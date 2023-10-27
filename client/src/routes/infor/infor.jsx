@@ -1,14 +1,15 @@
 import SaleCard from "../../components/saleCard/saleCard"
 import styles from "./infor.module.css"
+import card from "../../assets/cart-outline.svg";
 
 const Infor = () => {
   return (
     <div className={styles.sale}>
             <SaleCard
-          title={"/cachorro"}
+          title={"rato"}
           fullPrice={199.9}
           discount={40}
-          css={gato}
+          info={"🛒"}
           onAdd={() =>
             handleAddProduct({
               name: "Cachorro",

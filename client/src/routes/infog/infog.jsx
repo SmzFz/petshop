@@ -10,7 +10,7 @@ const Infog = () => {
         fullPrice={199.9}
         discount={40}
         css={"gato"}
-        card={card}
+        info={"🛒"}
         onAdd={() =>
           handleAddProduct({
             name: "Rato",

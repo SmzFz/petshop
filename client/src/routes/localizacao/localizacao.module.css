@@ -14,13 +14,22 @@
     border-radius: 0 4em 4em 0;
     background-color: #7C57BC;
     box-shadow: #7C57BC;
+    
   }
+
+  
+
+
 
   .container h3{
     margin-top: 2em;
     width: 250px;
     color: #E0E18A;
   }
+
+  .container h3:hover {
+    scale: 1.05;
+}
   
   .container input {
     margin-top: -1em;
@@ -41,8 +50,11 @@
   
     opacity: 0.8;
   }
+
+
   .email{
     margin-top: 1em;
+    color: #E0E18A;
     
   }
 
@@ -53,6 +65,7 @@
 
   .name{
     margin-top: 1em;
+    color: #E0E18A;
   }
   .name input{
     margin-top: 1em;
@@ -60,6 +73,7 @@
 
 .problema{
     margin-top: 1em;
+    color: #E0E18A;
 }
 
   .problema input {
